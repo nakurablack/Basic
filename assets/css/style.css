@@ -182,8 +182,7 @@ a{
     left: 16%;
 }
 .about_text .desc_cart,
-.why_text .desc_cart
-{
+.why_text .desc_cart{
     text-align: left;
     margin-bottom: 25px;
 }
@@ -203,7 +202,6 @@ a{
     z-index: -2;
     left: -5%;
     bottom: -2%;
-
 }
 .desktop{
     width: 525px;
@@ -212,7 +210,7 @@ a{
     position: absolute;
     z-index: 2;
     padding: 10px;
-    background: white;
+    background: #fff;
     border-radius: 50%;
     width: 34px;
     height: 34px;
@@ -221,7 +219,7 @@ a{
     align-items: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     cursor: pointer;
 }
 .why_text .title_block{
@@ -238,8 +236,8 @@ a{
     padding: 0 45px;
     width: 100%;
     justify-content: space-between;
-    margin-top: 60px;
     position: relative;
+    margin-top: 60px;
 }
 .bob{
     width: 100%;
@@ -255,7 +253,7 @@ a{
     content: "";
     width: 155px;
     height: 120px;
-    background: linear-gradient(#33c8c1,#119bd2);
+    background: linear-gradient(#33c8c1, #119bd2);
     display: block;
     position: absolute;
     z-index: -1;
@@ -273,11 +271,11 @@ a{
     display: none;
     position: fixed;
     z-index: 99;
-    background: rgba(0,0,0,0.15);
+    background: rgba(0, 0, 0, 0.15);
     width: 100%;
     height: 100vh;
-    top: 0;
     left: 0;
+    top: 0;
 }
 .popup_window iframe{
     position: absolute;
@@ -291,11 +289,71 @@ a{
     right: 0%;
     color: white;
     padding: 25px;
-
 }
 .popup_window label:hover{
-    background: rgba(0,0,0, 0.25);
+    background: rgba(0, 0, 0, 0.25);
 }
 #cb:checked ~ .popup_window{
     display: block;
+}
+
+.Experience_title_block{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.NewCart{
+    width: 350px;
+    padding: 25px;
+    color: black;
+    display: block;
+    transition: all .3s linear;
+}
+
+.NewCartCenter{
+    width: 350px;
+    padding: 25px;
+    color: black;
+    display: block;
+    border-radius: 12px;
+    border: 2px solid #fe8464;
+    transition: all .3s linear;
+}
+
+.NewCartImg{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+}
+
+.NewCartImgBg{
+    position: absolute;
+    left: -50px;
+    transition: all .3s linear;
+}
+
+.NewCartImgAuthor{
+    position: relative;
+    top: 18px;
+}
+
+.NewCartDesc{
+    color: #6A6972;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+}
+
+.NewCarts{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NewCartImg{
+
 }
